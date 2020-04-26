@@ -1,0 +1,19 @@
+{
+  "name": "cf-agent-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cf-agent-library.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrisisCleanup/cf-agent-library.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CrisisCleanup/cf-agent-library/issues"
+  },
+  "homepage": "https://github.com/CrisisCleanup/cf-agent-library#readme"
+}
