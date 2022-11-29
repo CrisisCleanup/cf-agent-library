@@ -2670,7 +2670,7 @@
         }
         return formattedResponse;
     };
-    processCampaigns = function (response) {
+    var processCampaigns = function (response) {
         var campaigns = [];
         var campaign = {};
         var campaignsRaw = [];
