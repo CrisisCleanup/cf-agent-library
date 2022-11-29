@@ -2296,7 +2296,7 @@
         formattedResponse.message = resp.msg['#text'];
         return formattedResponse;
     };
-    _formatBaggage = function (baggage) {
+    var _formatBaggage = function (baggage) {
         var bag = {};
         bag.first_name = { '#text': baggage.first_name || '' };
         bag.mid_name = { '#text': baggage.mid_name || '' };
