@@ -8802,7 +8802,7 @@
         // only CommonJS-like environments that support module.exports,
         // like Node.
         //console.log("AgentLibrary: Using Node");
-        module.exports = initAgentLibrary(this);
+        module.exports = initAgentLibrary({});
     } else {
         // Load Library normally (creating a Library global) if not using an AMD
         // loader.
